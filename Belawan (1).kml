@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Belawan</name>
+    <description/>
+    <Style id="poly-0097A7-11000-186-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>11</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>baa79700</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0097A7-11000-186-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>16.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>baa79700</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0097A7-11000-186-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0097A7-11000-186-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0097A7-11000-186-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>PT A</name>
+      <Placemark>
+        <name>Poligon 1</name>
+        <styleUrl>#poly-0097A7-11000-186-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                98.6934183,3.7857116,0
+                98.6933325,3.7844484,0
+                98.6935685,3.7838917,0
+                98.6967228,3.7841486,0
+                98.6969159,3.7843841,0
+                98.6968516,3.7859257,0
+                98.6934183,3.7857116,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
